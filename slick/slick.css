@@ -1,0 +1,380 @@
+/* Slider */
+.slick-slider{
+    position: relative;
+    display: block;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+.slick-list{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus{
+    outline: none;
+}
+.slick-list.dragging{
+    cursor: pointer;
+    cursor: hand;
+}
+.slick-slider .slick-track,
+.slick-slider .slick-list{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after{
+    display: table;
+    content: '';
+}
+.slick-track:after{
+    clear: both;
+}
+.slick-loading .slick-track{
+    visibility: hidden;
+}
+.slick-slide{
+    display: none;
+    float: left;
+    /*height: 80%;*/
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide{
+    float: right;
+}
+.slick-slide img{
+    display: block;
+}
+.slick-slide.slick-loading img{
+    display: none;
+}
+.slick-slide.dragging img{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide{
+    display: block;
+}
+.slick-loading .slick-slide{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+.slick-prev,
+.slick-next{    
+    position: absolute;
+    top: 37px;
+    display: block;
+    width: 76px;
+    height: 76px;
+    margin-top: 16%;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+}
+
+/*
+.slick-prev{ background:url(../images/back.png) left top no-repeat; right:100%; transition:all 0.2s; top: -51px;}
+
+
+.slick-prev:hover{ background:url(../images/back-btn.png) left bottom no-repeat; right:100%; top: -51px;}
+
+.slick-next{ background:url(../images/next.png) left top no-repeat;  right: -7%;  transition:all 0.2s; top: -51px;}
+
+.slick-next:hover{ background:url(../images/next-btn.png) left bottom no-repeat; right: -4%; top: -51px;}
+*/
+
+.slidee1 .slick-prev,
+.slidee1 .slick-next{
+    position: absolute;
+    /*top: -100px;*/
+    display: block;
+    width: 76px;
+    height: 76px;
+    margin-top: 13%;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+}
+.slidee1 .slick-prev{ 
+    background: url(../images/back.png) left top no-repeat;
+    right: 48px;
+    transition: all 0.2s;
+    top: -373px;
+    margin-right: 55px;
+
+}
+
+.slidee1 .slick-prev:hover{ 
+    background: url(../images/back.png) left top no-repeat;
+    right: 48px;
+    transition: all 0.2s;
+    top: -373px;
+    margin-right: 55px;
+}
+
+.slidee1 .slick-next{ 
+    background: url(../images/next.png) left top no-repeat;
+    right: -19px;
+    transition: all 0.2s;
+    top: -373px;
+    margin-right: 60px;
+}
+
+.slidee1 .slick-next:hover{ 
+    background: url(../images/next.png) left top no-repeat;
+    right: -19px;
+    transition: all 0.2s;
+    top: -373px;
+    margin-right: 60px;
+}
+
+
+
+
+
+
+
+
+/* slidee2 */
+.slidee .slick-prev,
+.slidee .slick-next{
+    position: absolute;
+    /*top: -100px;*/
+    display: block;
+    width: 96px;
+    height: 96px;
+    margin-top: 15%;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+}
+
+.slidee .slick-prev{ 
+   background: url('../images/back.png') left top no-repeat;
+   right: 47px;
+   transition: all 0.4s;
+   top: -285px;
+}
+
+.slidee .slick-prev:hover{ 
+    background: url('../images/back.png') left top no-repeat;
+    right: 47px;
+    transition: all 0.4s;
+    top: -285px;
+}
+
+.slidee .slick-next{
+   background: url('../images/next.png') left top no-repeat;
+   left: 50px;
+   transition: all 0.4s;
+   top: -285px;
+}
+
+ .slidee .slick-next:hover{
+   background: url('../images/next.png') left top no-repeat;
+   left: 50px;
+   transition: all 0.4s;
+   top: -285px;
+}
+
+
+
+
+/* slidee4 */
+.slidee4 .slick-prev,
+.slidee4 .slick-next{
+    position: absolute;
+    /*top: -100px;*/
+    display: block;
+    width: 76px;
+    height: 76px;
+    margin-top: 13%;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+}
+
+.slidee4 .slick-prev{ 
+   background: url(../images/back.png) left top no-repeat;
+    /* right: 51%; */
+    /* left: 1034px; */
+    right: 11px;
+    transition: all 0.4s;
+    top: -165px;
+}
+
+.slidee4 .slick-prev:hover{ 
+    background: url(../images/back.png) left top no-repeat;
+    /* right: 51%; */
+    /* left: 1034px; */
+    right: 11px;
+    transition: all 0.4s;
+    top: -165px;
+}
+
+.slidee4 .slick-next{
+    background: url(../images/next.png) left top no-repeat;
+    /* right: 46%; */
+    right: -32px;
+transition: all 0.4s;
+top: -165px;
+}
+
+ .slidee4 .slick-next:hover{
+   background: url(../images/next.png) left top no-repeat;
+    /* right: 46%; */
+    right: -32px;
+transition: all 0.4s;
+top: -165px;
+}
+
+
+
+
+@media screen and (max-width: 1200px){
+.slidee1 .slick-next{
+        right: 0%;
+}
+.slidee1 .slick-prev{
+    left: 0px;
+}
+.slidee2 .slick-prev{
+    left: -4px;
+}
+.slidee2 .slick-prev,
+.slidee2 .slick-next
+{
+  
+    top: 3px;
+ 
+}
+
+.slick-next{ background:url(../images/next.png) left top no-repeat; right:-4%; transition:all 0.2s; top: -51px;}
+/*
+.slick-next:hover{ background:url(../images/next-btn.png) left bottom no-repeat; right:-4%; top: -51px;}
+*/
+}
+@media screen and (max-width: 1024px){
+.slidee1 .slick-next{
+        right: 0%;
+}
+.slidee1 .slick-prev{
+    left: 0px;
+}
+.slidee2 .slick-prev{ 
+   background: url(../images/back.png) left top no-repeat;
+   right: 51%;
+   left: 878px;
+   transition: all 0.4s;
+   top: -220px;
+}
+/*
+.slidee2 .slick-prev:hover{ background:url(../images/back-btn.png) left bottom no-repeat; right:51%;}
+*/
+.slidee2 .slick-next{
+    background: url(../images/next.png) left top no-repeat;
+    right: 46%;
+    right: -32px;
+    transition: all 0.4s;
+    top: -220px; 
+}
+
+
+.slick-next{ background:url(../images/next.png) left top no-repeat; right:-4%; transition:all 0.2s; top: -51px;}
+/*
+.slick-next:hover{ background:url(../images/next-btn.png) left bottom no-repeat; right:-4%; top: -51px;}
+*/
+}
+
+
+@media screen and (max-width: 992px){
+.slidee2 .slick-prev,
+.slidee2 .slick-next
+{
+  
+    top: -72px;
+ 
+}
+
+.slidee2 .slick-prev{ background:url(../images/back.png) left top no-repeat; right:54%; transition:all 0.2s;}
+.slidee2 .slick-prev:hover{ background:url(../images/back.png) left bottom no-repeat; right:54%;}
+.slidee2 .slick-next{ background:url(../images/next.png) left top no-repeat; right:45%; transition:all 0.2s;}
+.slidee2 .slick-next:hover{ background:url(../images/next.png) left bottom no-repeat; right:45%;}
+}
+
+@media screen and (max-width: 786px){
+ .slick-prev{ display: none !important; }
+.slick-prev:hover{ display: none !important;}
+.slick-next{ display: none !important; }
+.slick-next:hover{ display: none !important;}
+   
+.slidee2 .slick-prev,
+.slidee2 .slick-next
+{
+  
+    top: 28%;
+ 
+}
+
+.slidee2 .slick-prev{ background:url(../images/back.png) left top no-repeat; right:95%; transition:all 0.2s;}
+.slidee2 .slick-prev:hover{ background:url(../images/back.png) left bottom no-repeat; right:95%;}
+.slidee2 .slick-next{ background:url(../images/next.png) left top no-repeat; right:0%; transition:all 0.2s;}
+.slidee2 .slick-next:hover{ background:url(../images/-next.png) left bottom no-repeat; right:0%;}
+}
+
+
+
+
+@media screen and (max-width: 500px){
+
+
+
+.slidee2 .slick-prev,
+.slidee2 .slick-next
+{
+  
+    top: 30%;
+ 
+}
+
+.slidee2 .slick-prev{ background:url(../images/back.png) left top no-repeat; right:85%; transition:all 0.2s;}
+.slidee2 .slick-prev:hover{ background:url(../images/back.png) left bottom no-repeat; right:85%;}
+.slidee2 .slick-next{ background:url(../images/next.png) left top no-repeat; right:1%; transition:all 0.2s;}
+.slidee2 .slick-next:hover{ background:url(../images/next.png) left bottom no-repeat; right:1%;}
+
+
+
+}
+ 

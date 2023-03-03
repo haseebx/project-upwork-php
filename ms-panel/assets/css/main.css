@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+/*Login Page CSS Start*/
+body, html{
+     height: 100%;
+ 	background-repeat: no-repeat;
+ 	background-color: #d3d3d3;
+ 	font-family: 'Oxygen', sans-serif;
+}
+
+.main{
+ 	margin-top: 70px;
+}
+
+h1.title { 
+	font-size: 50px;
+	font-family: 'Passion One', cursive; 
+	font-weight: 400; 
+}
+
+hr{
+	width: 10%;
+	color: #fff;
+}
+
+.form-group{
+	margin-bottom: 15px;
+}
+
+label{
+	margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.main-login{
+ 	background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.main-center{
+ 	margin-top: 30px;
+ 	margin: 0 auto;
+ 	max-width: 330px;
+    padding: 40px 40px;
+
+}
+
+.login-button{
+	margin-top: 5px;
+}
+
+.login-register{
+	font-size: 11px;
+	text-align: center;
+}
+/*Login Page CSS End*/
+
+/*main Page CSS Start*/
+.tpadding{
+	padding-left:0;
+	padding-right:0;
+}
+.top_bg{
+	background:#333;
+}
+.top_bg h1{
+	margin:0;
+    font-size:30px;
+    color: #fff;
+    padding:30px;
+}
+.left_menu_bg{
+	background:#222;
+}
+.left_menu li a{
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+	padding: 18px 0px 15px 15px;
+	display:block;
+	border-bottom:solid 1px #666;
+	transition:all 0.5s;
+}
+.left_menu li a:hover{
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+	background:#d9534f;
+	padding: 18px 0px 15px 22px;
+	display:block;
+	text-decoration:none;
+	transition:all 0.5s;
+}
+.left_sub_menu{
+	padding-left:30px;
+	transition:all 0.5s;
+}
+.left_sub_menu:hover{
+	padding-left:40px;
+	transition:all 0.5s;
+}
+
+/* Custom Colored Panels */
+
+.huge {
+    font-size: 40px;
+}
+
+.panel-green {
+    border-color: #5cb85c;
+}
+
+.panel-green > .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
+}
+
+.panel-green > a {
+    color: #5cb85c;
+}
+
+.panel-green > a:hover {
+    color: #3d8b3d;
+}
+
+.panel-red {
+    border-color: #d9534f;
+}
+
+.panel-red > .panel-heading {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.panel-red > a {
+    color: #d9534f;
+}
+
+.panel-red > a:hover {
+    color: #b52b27;
+}
+
+.panel-yellow {
+    border-color: #f0ad4e;
+}
+
+.panel-yellow > .panel-heading {
+    border-color: #f0ad4e;
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.panel-yellow > a {
+    color: #f0ad4e;
+}
+
+.panel-yellow > a:hover {
+    color: #df8a13;
+}
+
+.base{
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	color:#000;
+	text-decoration:none;
+}
+.base_link{
+	font-size:14px;
+	color:#333;
+	text-decoration:underline;
+}
+.base_link:hover{
+	font-size:14px;
+	color:#F00;
+	text-decoration:underline;
+}
+
+.fa-5x{font-size:3em !important;}
+
+.optionss{ margin-bottom:20px;}
+.optionss span{ padding-right:30px;}
+
+
+.x_panel{position:relative;width:100%;margin-bottom:10px;padding:10px 17px;display:inline-block;background:#fff;border:1px solid #E6E9ED;-webkit-column-break-inside:avoid;-moz-column-break-inside:avoid;column-break-inside:avoid;opacity:1;transition:all .2s ease}.x_title{border-bottom:2px solid #E6E9ED;padding:1px 5px 6px;margin-bottom:10px}.x_title .filter{width:40%;float:right}.x_title h2{margin:5px 0 6px;float:left;display:block;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.x_title h2 small{margin-left:10px}.x_title span{color:#BDBDBD}.x_content{padding:0 5px 6px;position:relative;width:100%;float:left;clear:both;margin-top:5px}.x_content h4{font-size:16px;font-weight:500}
+
+
+.nav_bg{ background:#222;}

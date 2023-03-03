@@ -1,0 +1,52 @@
+RewriteEngine On
+
+RewriteRule    ^home/?$                                                      index.php                                      [QSA,NC,L]
+
+RewriteRule    ^about-us/?$                                                  pages.php?id=1                                 [QSA,NC,L]
+
+RewriteRule    ^contact-us/?$                                                pages.php?id=2                                 [QSA,NC,L]
+
+RewriteRule    ^terms/?$                                                     pages.php?id=7                                 [QSA,NC,L]
+
+RewriteRule    ^search-products/?$                                           search.php                                     [QSA,NC,L]
+
+RewriteRule    ^submit-inquiry/?$                                            pages.php?id=4                                 [QSA,NC,L]
+
+RewriteRule    ^quote-request/?$                                             quote.php                                      [QSA,NC,L]
+
+RewriteRule    ^inquiry-basket/?                                             basket.php                                     [QSA,NC,L]
+
+RewriteRule    ^submit-newsletter/?                                          submit_letter.php                              [QSA,NC,L]
+
+RewriteRule    ^site-close/?                                                 close.php                                      [QSA,NC,L]
+
+
+
+
+
+RewriteRule ^([0-9a-zA-Z-]+)$                                                products.php?mId=$1                            [QSA,NC,L]
+
+RewriteRule ^([0-9a-zA-Z-]+)/page/([0-9a-zA-Z-]+)$                           products.php?mId=$1&cur=$2                     [QSA,NC,L]
+
+RewriteRule ^([0-9a-zA-Z-]+)/([0-9a-zA-Z-]+)$                                products.php?mId=$1&sId=$2                     [QSA,NC,L]
+
+RewriteRule ^([0-9a-zA-Z-]+)/([0-9a-zA-Z-]+)/([0-9a-zA-Z-]+)$           	products.php?mId=$1&sId=$2&cId=$3              [QSA,NC,L]
+
+RewriteRule ^([0-9a-zA-Z-]+)/([0-9a-zA-Z-]+)/([0-9a-zA-Z-]+)/page/([0-9a-zA-Z-]+)$           	products.php?mId=$1&sId=$2&cId=$3&cur=$4              [QSA,NC,L]
+
+RewriteRule ^([0-9a-zA-Z-]+)/([0-9a-zA-Z-]+)/page/([0-9a-zA-Z-]+)$           products.php?mId=$1&sId=$2&cur=$3              [QSA,NC,L]
+
+RewriteRule ^([0-9a-zA-Z-]+)/detail/([0-9a-zA-Z-]+)$                         detail.php?mId=$1&pArt=$2                      [QSA,NC,L]
+
+RewriteRule ^([0-9a-zA-Z-]+)/([0-9a-zA-Z-]+)/detail/([0-9a-zA-Z-]+)$         detail.php?mId=$1&sId=$2&pArt=$3               [QSA,NC,L]
+
+
+
+RewriteRule ^([0-9a-zA-Z-]+)/([0-9a-zA-Z-]+)/([0-9a-zA-Z-]+)$                products.php?mId=$1&sId=$2&cid=$1              [QSA,NC,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php70” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php70 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

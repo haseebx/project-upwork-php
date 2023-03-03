@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Monda);
+.main_cont{
+width:100%;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:0px;
+margin-top:0px;
+}
+.add_form_container{
+	padding: 0px;
+	width: 70%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.footer{
+	float:left;
+	height:40px;
+	text-align:center;
+	color:#fff;
+	width:100%;
+	position:absolute;
+	background-image: url(../img/footer_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+	font-size:14px;
+	background-color: #077ead;
+	padding-top:10px;
+}
+.footer a{
+	color:#fff;
+}
+.span81{
+width:100%;
+}
+
+.comments_fld { font-style:italic; color: #999999; font-size:12px;}
+.status_yes {
+	background:url(../img/yes.png) no-repeat;
+	border:none;
+	text-indent: -99999px;
+	cursor: pointer;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 6px;
+}
+.status_no {
+	background:url(../img/no.png) no-repeat;
+	border:none;
+	text-indent: -99999px;
+	cursor: pointer;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 6px;
+}
+.icon-align{width:100%; text-align:center; float:left;
+}
+
+.main_p { font-family: 'Monda', sans-serif; font-size:14px; font-weight:normal; color:#484848;}

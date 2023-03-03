@@ -1,0 +1,3032 @@
+/*
+    Template Name: Responsive Team Box
+    Author: Codex Expert 
+    Description: Responsive Team Box
+    Version: 1.0
+*/
+
+/* Table of Content
+==================================================
+
+- body font
+- Hero banner
+-  Demo 1
+-  Demo 2
+-  Demo 3
+-  Demo 4
+-  Demo 5
+-  Demo 6
+-  Demo 7
+-  Demo 8
+-  Demo 9
+-  Demo 10
+-  Demo 11
+-  Demo 12
+-  Demo 13
+-  Demo 14
+
+
+*/
+  
+
+
+/** body font ***/
+body {
+    font-family: Ubuntu;
+    background: #fcfcfc;
+}
+
+
+
+/*** Hero banner ***/
+
+ 
+#hero-banner-area {
+    background:#070707;
+    border-top:2px solid #ff5252;
+}
+
+.hero-banner-table {
+    display: table;
+    width: 100%;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.hero-banner-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    padding:70px 0;
+    color: #fff;
+}
+
+.hero-banner-table-cell h1 {
+    color: #ff5252;
+    text-transform: uppercase;
+}
+
+.hero-banner-table-cell h3 {
+    font-size: 22px;
+    line-height: 35px;
+}
+.hero-banner-table-cell h1{
+    font-size:46px;
+    font-weight: 700;
+    line-height: 50px;
+    font-family: Ubuntu;
+}
+/*** Hero banner ***/
+
+ 
+#footer-banner-area {
+    background:#070707;
+    border-top:2px solid #ff5252;
+}
+
+.hero-banner-table {
+    display: table;
+    width: 100%;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.hero-banner-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    padding:70px 0;
+    color: #fff;
+}
+
+.hero-banner-table-cell h1 {
+    color: #ff5252;
+    text-transform: uppercase;
+}
+
+.hero-banner-table-cell h3 {
+    font-size: 22px;
+    line-height: 35px;
+}
+
+
+
+/*** Demo 1 ***/
+
+.demo-box-1 {
+    position: relative;
+    overflow: hidden;
+       -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.domo-box {
+    background: #fff;  
+}
+ 
+.box-shadow{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms; 
+    transition: all ease 500ms;
+}
+.box-shadow:hover {
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.team-member-details {
+    
+}  
+.team-member-image {
+    height: 350px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.team-member-image img{
+    width: 100%;
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    transform: scale(1); 
+}
+
+
+.demo-box-1:hover .team-member-image img{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    transform: scale(1.1);
+}
+
+.team-member-image:before {
+    background: rgba(255, 82, 82, 0.3);
+    content: "";
+    position: absolute;
+    left: 0;
+    top:-100%;
+    width: 100%;
+    height: 100%;
+    transition: all ease 500ms;
+    z-index: 1;
+}
+
+.demo-box-1:hover .team-member-image:before {
+    background: rgba(255, 82, 82, 0.3);
+    content: "";
+    position: absolute;
+    left: 0;
+    top:0%;
+    width: 100%;
+    height: 100%;
+    transition: all ease 500ms;
+}
+
+.member-details {
+    border-bottom: 5px solid #ff5252;
+    border-style: groove;
+    transition: all ease 500ms;
+}
+.demo-box-1:hover .member-details {
+    border-bottom: 5px solid #000;
+    transition: all ease 500ms;
+}
+
+
+.member-details h2 {
+    background: #ff5252;
+    line-height: 50px;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.member-details h3 {
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 10px;
+    line-height: 50px;
+}
+.team-member-soical-1 i {
+    color: #fff;
+    font-size: 25px;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+.team-member-soical-1 {
+    position: absolute;
+    bottom: 22%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    line-height: 50px;
+    text-align: center;
+    left:-100%;
+       -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    z-index: 2;
+}
+.demo-box-1:hover .team-member-soical-1 {
+    left:0; 
+       -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+@media (max-width : 1024px) {
+
+    .team-member-image {
+        height: auto;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    .team-member-soical-1 {
+        position: absolute;
+        bottom: 26%;
+        width: 100%;
+        background: rgba(0,0,0,0.5);
+        line-height: 50px;
+        text-align: center;
+        left: -100%;
+        -webkit-transition: all ease 500ms;
+        -o-transition: all ease 500ms;
+        transition: all ease 500ms;
+        z-index: 2;
+    }
+
+}
+
+
+
+
+/*** Demo 2 ***/
+
+.demo-box-2 {
+    position: relative;
+    overflow: hidden;
+       -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.domo-box-2 {
+    background: #fff;  
+}
+ 
+.box-shadow{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.box-shadow:hover {
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.team-member-details {
+    
+}  
+.team-member-image-2 {
+    height: 350px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.team-member-image-2 img{
+    width: 100%;
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    transform: scale(1); 
+}
+
+
+.demo-box-2:hover .team-member-image-2 img{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    transform: scale(1.1);
+}
+
+.team-member-image-2:before {
+    background: rgba(255, 82, 82, 0.3);
+    content: "";
+    position: absolute;
+    left: 0;
+    top:-100%;
+    width: 100%;
+    height: 50%;
+    transition: all ease 500ms;
+    z-index: 1;
+}
+
+.demo-box-2:hover .team-member-image-2:before {
+    background: rgba(255, 82, 82, 0.3);
+    content: "";
+    position: absolute;
+    left: 0;
+    top:0%;
+    width: 100%;
+    height: 50%;
+    transition: all ease 500ms;
+}
+
+.team-member-image-2:after {
+    background: rgba(255, 82, 82, 0.3);
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom:-100%;
+    width: 100%;
+    height: 50%;
+    transition: all ease 500ms;
+    z-index: 1;
+}
+
+.demo-box-2:hover .team-member-image-2:after {
+    background: rgba(255, 82, 82, 0.3);
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom:0%;
+    width: 100%;
+    height: 50%;
+    transition: all ease 500ms;
+}
+
+
+.member-details-2 {
+    border-bottom: 5px solid #ff5252;
+    border-style: groove;
+    transition: all ease 500ms;
+}
+.demo-box-2:hover .member-details-2 {
+    border-bottom: 5px solid #000;
+    transition: all ease 500ms;
+}
+
+
+.member-details-2 h2 {
+    background: #ff5252;
+    line-height: 50px;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.member-details-2 h3 {
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 10px;
+    line-height: 50px;
+}
+ 
+.team-member-soical-2 .top {
+    position: absolute;
+    top:-100%;
+    width: 50px;
+    height: 50px;
+    background: #ff5252;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    line-height: 48px;
+    z-index: 1;
+    left: 35%;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.demo-box-2:hover .team-member-soical-2 .top {
+    top: 35%;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.team-member-soical-2 .right {
+    position: absolute;
+    top:-100%;
+    width: 50px;
+    height: 50px;
+    background: #ff5252;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    line-height: 48px;
+    z-index: 1;
+    right: 35%;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.demo-box-2:hover .team-member-soical-2 .right {
+    top: 35%;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.team-member-soical-2 .bottom {
+    position: absolute;
+    bottom:-100%;
+    width: 50px;
+    height: 50px;
+    background: #ff5252;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    line-height: 48px;
+    z-index: 1;
+    left: 35%;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.demo-box-2:hover .team-member-soical-2 .bottom {
+    bottom: 42%;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+
+.team-member-soical-2 .left {
+    position: absolute;
+    bottom:-100%;
+    width: 50px;
+    height: 50px;
+    background: #ff5252;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    line-height: 48px;
+    z-index: 1;
+    right:35%;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.demo-box-2:hover .team-member-soical-2 .left {
+    bottom: 42%;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+@media (max-width : 1024px) {
+
+    .team-member-image-2 {
+        height: auto;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    .team-member-soical-2 .left {
+        right: 28%;
+    }
+    .demo-box-2:hover .team-member-soical-2 .top {
+        top: 31%;
+         -webkit-transition: all ease 500ms;
+        -o-transition: all ease 500ms;
+        transition: all ease 500ms;
+    }
+    .demo-box-2:hover .team-member-soical-2 .right {
+        top: 31%;
+         -webkit-transition: all ease 500ms;
+        -o-transition: all ease 500ms;
+        transition: all ease 500ms;
+    }
+    
+    .team-member-soical-2 .right {
+        right: 28%;
+    }
+    
+    
+
+}
+
+
+
+/*** Demo 3 ***/
+
+.demo-box-3 {
+    position: relative;
+    overflow: hidden;
+       -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.domo-box-3 {
+    background: #fff;  
+}
+ 
+.box-shadow{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.box-shadow:hover {
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.team-member-image-3 {
+    height: 350px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.team-member-image-3 img{
+    width: 100%;
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    transform: scale(1); 
+}
+
+
+.demo-box-3:hover .team-member-image-3 img{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    transform: scale(1.1);
+}
+
+.team-member-image-3:before {
+    background: rgba(255, 255, 255, 0.3);
+    content: "";
+    position: absolute;
+    left:-100%;
+    top:0;
+    width: 100%;
+    height: 50%;
+    transition: all ease 500ms;
+    z-index: 1;
+}
+
+.demo-box-3:hover .team-member-image-3:before {
+    background: rgba(255, 255, 255, 0.3);
+    content: "";
+    position: absolute;
+    left:0;
+    top:0%;
+    width: 100%;
+    height: 50%;
+    transition: all ease 500ms;
+}
+
+.team-member-image-3:after {
+    background: rgba(255, 255, 255, 0.3);
+    content: "";
+    position: absolute;
+    right: -100%;
+    bottom:0;
+    width: 100%;
+    height: 50%;
+    transition: all ease 500ms;
+    z-index: 1;
+}
+
+.demo-box-3:hover .team-member-image-3:after {
+    background: rgba(255, 255, 255, 0.3);
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom:0%;
+    width: 100%;
+    height: 50%;
+    transition: all ease 500ms;
+}
+
+
+.member-details-3 {
+    border-bottom: 5px solid #000;
+    border-style: groove;
+    transition: all ease 500ms;
+}
+.demo-box-3:hover .member-details-3 {
+    border-bottom: 5px solid #ff5252;
+    transition: all ease 500ms;
+}
+
+
+.member-details-3 h2 {
+    background: #000;
+    line-height: 50px;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.member-details-3 h3 {
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 10px;
+    line-height: 50px;
+}
+ 
+.team-member-soical-3 .top {
+    position: absolute;
+    top: 35%;
+    width: 50px;
+    height: 50px;
+    background: #000;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    line-height: 48px;
+    z-index: 1;
+    left: -100%;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.demo-box-3:hover .team-member-soical-3 .top {
+     left: 35%;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.team-member-soical-3 .right {
+    position: absolute;
+    top:-100%;
+    width: 50px;
+    height: 50px;
+    background: #ff5252;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    line-height: 48px;
+    z-index: 1;
+    right: 35%;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.demo-box-3:hover .team-member-soical-3 .right {
+    top: 35%;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.team-member-soical-3 .bottom {
+    position: absolute;
+    bottom:-100%;
+    width: 50px;
+    height: 50px;
+    background: #000;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    line-height: 48px;
+    z-index: 1;
+    left: 35%;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.demo-box-3:hover .team-member-soical-3 .bottom {
+    bottom: 42%;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+
+.team-member-soical-3 .left {
+    position: absolute;
+    bottom: 42%;
+    width: 50px;
+    height: 50px;
+    background: #ff5252;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    line-height: 48px;
+    z-index: 1;
+    right:-100%;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.demo-box-3:hover .team-member-soical-3 .left {
+    right:35%;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+@media (max-width : 1024px) {
+
+    .team-member-image-3 {
+        height: auto;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+     
+    .demo-box-3:hover .team-member-soical-3 .right {
+        top: 31%;
+         -webkit-transition: all ease 500ms;
+        -o-transition: all ease 500ms;
+        transition: all ease 500ms;
+         -webkit-transition: all ease 500ms;
+        -o-transition: all ease 500ms;
+        transition: all ease 500ms;
+        right: 28%;
+    }
+    .team-member-soical-3 .top{
+        top: 31%;
+    }
+    .demo-box-3:hover .team-member-soical-3 .left {
+
+        right:28%
+    }
+    
+      
+}
+
+
+
+/*** Demo 4 ***/
+.demo-box-4 {
+    position: relative;
+    overflow: hidden;
+       -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.domo-box-4 {
+    background: #fff;  
+}
+ 
+.box-shadow{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.box-shadow:hover {
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.team-member-image-4 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.team-member-image-4 img{
+    width: 100%;
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    transform: scale(1); 
+}
+
+
+.demo-box-4:hover .team-member-image-4 img{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    transform: scale(1.1);
+}
+
+.member-details-4{
+    padding: 0px 10px;  
+}
+.member-details-4 h2 { 
+    line-height: 50px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.member-details-4 h3 {
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    font-weight: 600;
+    font-size: 18px; 
+    color: #fff;
+}
+ 
+.team-member-details-top {
+    position: absolute;
+    top: -100%;
+    left:0;
+    background: rgba(0,0,0,.5);
+    width: 100%;
+    height: 100%;
+    transition: all ease 500ms;
+}
+.demo-box-4:hover .team-member-details-top {
+     top:0;
+    transition: all ease 500ms;
+}
+
+.team-member-details-bottom {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    right: 0;
+    width: 100%;
+    padding: 15px 0;
+    transition: all ease 500ms;
+}
+.demo-box-4:hover .team-member-details-bottom {
+     bottom: -100%;
+    transition: all ease 500ms;
+}
+
+.member-details-4 p {
+    color: #fff;
+    line-height: 22px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+.team-member-soical-4{
+    padding:0px 10px;
+}
+.team-member-soical-4 i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #fff;
+    color: #000;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.display-tabel {
+    display: table;
+    height: 350px;
+}
+
+.dispaly-tabel-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+
+/*** Demo 5 ***/
+.demo-box-5 {
+    position: relative;
+    overflow: hidden;
+       -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.domo-box-5 {
+    background: #fff;  
+}
+ 
+.box-shadow{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.box-shadow:hover {
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.team-member-image-5 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.team-member-image-5 img{
+    width: 100%;
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    transform: scale(1); 
+}
+
+
+.demo-box-5:hover .team-member-image-5 img{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    transform: scale(1.1);
+}
+
+.member-details-5{
+    padding: 0px 10px;  
+}
+.member-details-5 h2 { 
+    line-height: 50px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.member-details-5 h3 {
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    font-weight: 600;
+    font-size: 18px; 
+    color: #fff;
+}
+ 
+.team-member-details-top-5 {
+    position: absolute;
+    top: 0;
+    right:-100%;
+    background: rgba(0,0,0,.5);
+    width: 100%;
+    height: 100%;
+    transition: all ease 500ms;
+}
+.demo-box-5:hover .team-member-details-top-5 {
+     right:0;
+    transition: all ease 500ms;
+}
+
+.team-member-details-bottom-5 {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    right: 0;
+    width: 100%;
+    padding: 15px 0;
+    transition: all ease 500ms;
+}
+.demo-box-5:hover .team-member-details-bottom-5 {
+     bottom: -100%;
+    transition: all ease 500ms;
+}
+
+.member-details-5 p {
+    color: #fff;
+    line-height: 22px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+.team-member-soical-5{
+    padding:0px 10px;
+}
+.team-member-soical-5 i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #fff;
+    color: #000;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.display-tabel {
+    display: table;
+    height: 350px;
+}
+
+.dispaly-tabel-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+
+
+/*** Demo 6 ***/
+.demo-box-6 {
+    position: relative;
+    overflow: hidden;
+       -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.domo-box-6 {
+    background: #fff;  
+}
+ 
+.box-shadow{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.box-shadow:hover {
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.team-member-image-6 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.team-member-image-6 img{
+    width: 100%;
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    transform: scale(1); 
+}
+
+
+.demo-box-6:hover .team-member-image-6 img{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    transform: scale(1.1);
+}
+
+.member-details-6{
+    padding: 0px 10px;  
+}
+.member-details-6 h2 { 
+    line-height: 50px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.member-details-6 h3 {
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    font-weight: 600;
+    font-size: 18px; 
+    color: #fff;
+}
+ 
+.team-member-details-top-6 {
+    position: absolute;
+    bottom: -100%;
+    right:-0;
+    background: rgba(0,0,0,.5);
+    width: 100%;
+    height: 100%;
+    transition: all ease 500ms;
+}
+.demo-box-6:hover .team-member-details-top-6 {
+     bottom:0;
+    transition: all ease 500ms;
+}
+
+.team-member-details-bottom-6 {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    transition: all ease 500ms;
+}
+.demo-box-6:hover .team-member-details-bottom-6 {
+     bottom: 100%;
+    transition: all ease 500ms;
+}
+
+.member-details-6 p {
+    color: #fff;
+    line-height: 22px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+.team-member-soical-6{
+    padding:0px 10px;
+}
+.team-member-soical-6 i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #fff;
+    color: #000;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.display-tabel {
+    display: table;
+    height: 350px;
+}
+
+.dispaly-tabel-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+/*** Demo 7 ***/
+.demo-box-7 {
+    position: relative;
+    overflow: hidden;
+       -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.domo-box-7{
+    background: #fff;  
+}
+.demo-box-7 {
+    border-bottom: 5px solid #49a2e7;
+     transition: all ease 500ms;
+    
+}
+.demo-box-7:hover {
+    border-bottom: 5px solid #000;
+     transition: all ease 500ms;
+}
+
+ 
+ 
+.box-shadow{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.box-shadow:hover {
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.team-member-image-7 {
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    height: 270px;
+}
+
+.team-member-details-top-7 {
+    width: 50%;
+    float: right;
+    padding: 10px;
+}
+
+
+.team-member-image-7 img {
+    width: 100%;
+    transform: scale(1);
+    transition: all ease 500ms;
+}
+.demo-box-7:hover .team-member-image-7 img {
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+.team-member-image-7:before {
+    background: rgba(0,0,0,.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+    opacity: 0;
+    transition: all ease 500ms;
+    z-index: 1;
+}
+.demo-box-7:hover .team-member-image-7:before {
+     background: rgba(0,0,0,.4);
+    opacity: 1;
+    transition: all ease 500ms;
+}
+
+
+.member-details-7{
+    padding: 0px 10px;  
+}
+.member-details-7 h2 { 
+    line-height: 50px;
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.demo-box-7:hover:before  .member-details-7 h2 { 
+    color: #fff;
+}
+
+
+.member-details-7 h3 {
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    font-weight: 600;
+    font-size: 18px; 
+    color: #000;
+}
+ 
+ 
+.member-details-7 p {
+    color: #000;
+    line-height: 22px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+.team-member-soical-7{
+    padding:0px 10px;
+}
+.team-member-soical-7 i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #49a2e7;
+    color: #fff;
+    font-size: 22px;
+    line-height: 40px;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+}
+
+
+.demo-box-7:hover .team-member-soical-7 i {
+     background: #000;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+}
+
+
+.display-tabel {
+    display: table;
+    height: 350px;
+}
+
+.dispaly-tabel-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media (max-width : 1024px) {
+
+    
+    
+    
+    .team-member-image-7 {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        float: left;
+        height: auto;
+    }
+    .team-member-details-top-7 {
+        width: 100%; 
+    }
+    
+    .domo-box-8.domo-box-bottom.box-shadow {
+        margin-top: 90px;
+    }
+    
+    
+      
+}
+
+
+
+ 
+
+/*** Demo 8 ***/
+.demo-box-8 {
+    position: relative; 
+       -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.domo-box-8{
+    background: #fff;  
+}
+  
+.box-shadow{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.box-shadow:hover {
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+
+.team-member-details-top-8 {
+    padding: 35px 20px;
+}
+.member-details-8 h2 { 
+    line-height: 50px;
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.demo-box-8:hover:before  .member-details-8 h2 { 
+    color: #fff;
+}
+
+
+.member-details-8 h3 {
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    font-weight: 600;
+    font-size: 18px; 
+    color: #000;
+}
+ 
+ 
+.member-details-8 p {
+    color: #000;
+    line-height: 22px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+ 
+.team-member-soical-8 i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    font-size: 22px;
+    line-height: 40px;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+}
+
+
+.domo-img-box {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 100%;
+    top: -26%;
+    z-index: 9999;
+    border: 5px solid #000;
+}
+.domo-img-box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    transform: scale(1);
+     transition: all ease 500ms;
+}
+.demo-box-8:hover .domo-img-box img {
+    transform: scale(1.1);
+     transition: all ease 500ms;
+}
+
+
+.team-member-details-top-8 {
+    padding: 35px 20px;
+    overflow: hidden;
+    position: relative;
+}
+.team-member-details-top-8:before {
+    background:rgba(204, 204, 204, 0.4);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -100%;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all ease 500ms;
+}
+
+.demo-box-8:hover .team-member-details-top-8:before {
+    top:0;
+    transition: all ease 500ms;
+}
+
+
+
+
+
+/*** Demo 9 ***/
+.demo-box-9 {
+    position: relative; 
+       -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+     transform: rotateY(0deg);
+}
+
+.demo-box-9:hover {
+    transform: rotateY(360deg);
+       -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+
+
+.domo-box-9{
+    background: #fff;  
+}
+  
+.box-shadow{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.box-shadow:hover {
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.author-img-9{}
+.author-img-9 img{
+    width: 100%;
+}
+.author-details {
+    padding: 15px 10px;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.author-details h2 { 
+    line-height: 50px;
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+ 
+
+.author-details h3 {
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    font-weight: 600;
+    font-size: 18px; 
+    color: #000;
+}
+ 
+ 
+.member-details-9 p {
+    color: #000;
+    line-height: 22px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+ 
+.team-member-soical-9 i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    font-size: 22px;
+    line-height: 40px;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+}
+.team-member-soical-8 {
+    padding-top: 20px;
+}
+ 
+.author-details.author-details-back {
+    display: block;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+}
+
+ 
+
+
+
+
+/*** Demo 10 ***/
+.demo-box-10 {
+    position: relative; 
+       -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+     transform: rotateX(0deg);
+}
+
+.demo-box-10:hover {
+    transform: rotateX(360deg);
+       -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+
+
+.domo-box-10{
+    background: #fff;  
+}
+  
+.box-shadow{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.box-shadow:hover {
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.author-img-10{}
+.author-img-10 img{
+    width: 100%;
+}
+.author-details-10 {
+    padding: 15px 10px;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.author-details-10 h2 { 
+    line-height: 50px;
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+ 
+
+.author-details-10 h3 {
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    font-weight: 600;
+    font-size: 18px; 
+    color: #000;
+}
+ 
+ 
+.member-details-10 p {
+    color: #000;
+    line-height: 22px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+ 
+.team-member-soical-10 i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    font-size: 22px;
+    line-height: 40px;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+}
+.team-member-soical-10 {
+    padding-top: 0px;
+}
+ 
+.author-details-10.author-details-back-10 {
+   
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+}
+
+
+
+
+/*** Demo 11 ***/
+
+.demo-box-11 {
+    position: relative;  
+}
+
+
+.domo-box-11{
+    background: #fff;  
+}
+
+
+.author-img-11 img{
+    transform: scale(1);
+    transition: all ease 500ms;
+}
+ 
+.domo-box-11:hover .author-img-11 img{
+    transform: scale(0);
+    transition: all ease 500ms;
+}
+ 
+
+.author-details-back-11 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    transform: scale(0);
+    transition: all ease 500ms;
+}
+ 
+.domo-box-11:hover .author-details-back-11 {
+    transform: scale(1);
+    transition: all ease 500ms;
+}
+
+.author-details-11 .display-table{
+    display: table;
+    width: 100%;
+    height:350px;
+}
+.author-details-11 .table-cell{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+  
+.box-shadow{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.box-shadow:hover {
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.author-img-11{}
+.author-img-11 img{
+    width: 100%;
+}
+.author-details-11 {
+    padding: 15px 10px;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.author-details-11 h2 { 
+    line-height: 50px;
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+ 
+
+.author-details-11 h3 {
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    font-weight: 600;
+    font-size: 18px; 
+    color: #000;
+}
+ 
+ 
+.member-details-11 p {
+    color: #000;
+    line-height: 22px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+ 
+.team-member-soical-11 i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    font-size: 22px;
+    line-height: 40px;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+}
+.team-member-soical-11 {
+    padding-top: 20px;
+}
+ 
+.author-details-11.author-details-back-11 { 
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+/*** Demo 12 ***/
+
+.demo-box-12 {
+    position: relative;  
+}
+
+
+.domo-box-12{
+    background: #fff;  
+}
+
+ 
+.author-details-back-12 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    transform: scale(0);
+    transition: all ease 500ms;
+    background: rgba(255,255,255,.8);
+}
+ 
+.domo-box-12:hover .author-details-back-12 {
+    transform: scale(1);
+    transition: all ease 500ms;
+}
+
+.author-details-12 .display-table{
+    display: table;
+    width: 100%;
+    height:350px;
+}
+.author-details-12 .table-cell{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+  
+.box-shadow{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.box-shadow:hover {
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.author-img-12{}
+.author-img-12 img{
+    width: 100%;
+}
+.author-details-12 {
+    padding: 15px 10px;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.author-details-12 h2 { 
+    line-height: 50px;
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+ 
+
+.author-details-12 h3 {
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    font-weight: 600;
+    font-size: 18px; 
+    color: #000;
+}
+ 
+ 
+.member-details-12 p {
+    color: #000;
+    line-height: 22px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+ 
+.team-member-soical-12 i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    font-size: 22px;
+    line-height: 40px;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+}
+.team-member-soical-12 {
+    padding-top: 20px;
+}
+ 
+.author-details-12.author-details-back-12 { 
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+}
+
+
+ 
+
+/*** Demo 13 ***/
+
+.demo-box-13 {
+    position: relative;  
+}
+.demo-box-13:hover .heading-cater{
+    opacity: 0;
+}
+.heading-cater{
+    position: absolute;
+    z-index: 555;
+    bottom: 48px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.domo-box-13{
+    background: #fff;  
+}
+
+ 
+.author-details-back-13 {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    transform: scale(0) rotate(0);
+    transition: all ease 500ms;
+    background: rgba(255,255,255,.8);
+}
+ 
+.domo-box-13:hover .author-details-back-13 {
+    transform: scale(1) rotate(360deg);
+    transition: all ease 500ms;
+}
+
+.author-details-13 .display-table{
+    display: table;
+    width: 100%;
+   height: 260px;
+}
+.author-details-13 .table-cell{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+  
+.box-shadow{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.box-shadow:hover {
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.author-img-13{}
+.author-img-13 img{
+    width: 100%;
+}
+.author-details-12 {
+    padding: 15px1310px;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.author-details-13 h2 { 
+    line-height: 50px;
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+ 
+
+.author-details-13 h3 {
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    font-weight: 600;
+    font-size: 18px; 
+    color: #000;
+}
+ 
+ 
+.member-details-13 p {
+    color: #000;
+    line-height: 22px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+ 
+.team-member-soical-13 i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    font-size: 22px;
+    line-height: 40px;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+}
+.team-member-soical-13 {
+    padding-top: 20px;
+}
+ 
+.author-details-13.author-details-back-12 { 
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+/*** Demo 14 ***/
+
+.demo-box-14 {
+    position: relative;  
+    overflow:hidden;
+}
+
+
+.domo-box-14{
+    background: #fff;  
+}
+
+ 
+.author-details-back-14 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    opacity: 0;
+    text-align: center; 
+    background: rgba(255,255,255,.8);
+        -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    transform: rotate(360deg)
+}
+ 
+.domo-box-14:hover .author-details-back-14 {
+    opacity: 1;
+        -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    
+}
+
+.author-details-14 .display-table{
+    display: table;
+    width: 100%;
+    height:355px;
+}
+.author-details-14 .table-cell{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+  
+.box-shadow{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.box-shadow:hover {
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.author-img-14{}
+.author-img-14 img{
+    width: 100%;
+}
+.author-details-14 {
+    padding: 15px1310px;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.author-details-14 h2 { 
+    line-height: 50px;
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+ 
+
+.author-details-14 h3 {
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    font-weight: 600;
+    font-size: 18px; 
+    color: #000;
+}
+ 
+ 
+.member-details-14 p {
+    color: #000;
+    line-height: 22px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+ 
+.team-member-soical-14 i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    font-size: 22px;
+    line-height: 40px;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+}
+.team-member-soical-14 {
+    padding-top: 20px;
+}
+ 
+.author-details-14.author-details-back-14 { 
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+}
+
+
+
+
+/*** Demo 15 ***/
+
+.box-size {
+    min-width: 360px;
+    width:  ;
+}
+
+.hovai-demo-box-4 {
+    position: relative;
+    height:  ;
+    transition: all ease 500ms;
+    overflow: hidden
+}
+
+.hovai-box-image-4 img {
+    width: 100%;
+    transform: scale(1);
+     transition: all ease 500ms;
+    opacity: 1;
+}
+
+.hovai-demo-box-4:hover .hovai-box-image-4 img {
+    width: 100%;
+    transform: scale(100);
+     transition: all ease 500ms;
+    opacity: 0;
+}
+.box-shadow{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.box-shadow:hover {
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.tabel {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.tabel-cell {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+}
+.padding-bottom{
+    margin-bottom: 100px;
+}
+.hovai-box-details-4 {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background:#fff;
+     transition: all ease 500ms;
+      transform: scale(0);
+    
+}
+.hovai-demo-box-4:hover .hovai-box-details-4 {
+    transition: all ease 500ms;
+    transform: scale(1); 
+} 
+
+.hovai-box-details-4 h2 {
+    color: #000;
+    font-size: 30px;
+}
+
+.hovai-box-details-4 p {
+    color: #000;
+    line-height: 20px;
+    padding-top: 10px;
+}
+ 
+
+.hovai-demo-box-1:hover .border-line-1 {
+    left: 0%;
+    transition: all ease 500ms;
+}
+.section-title {
+    text-align: center;
+    padding: 120px 0;
+}
+.section-box-bottom{
+    margin-bottom: 130px;
+}
+.section-title p {
+    font-size: 18px;
+}
+
+
+ .section-title h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    font-family: Ubuntu;
+}
+
+
+
+.team-member-soical-10 a {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+   font-weight: bold;
+    color: #000;
+    font-size: 22px;
+    line-height: 40px;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+}
+.team-member-soical-10 a:hover{
+     color: #000;
+}
+.team-member-soical-10 {
+    padding-top: 0px;
+}
+ 
+ 
+/*** Demo 16 ***/
+
+.box-size {
+    
+}
+
+.hovai-demo-box-1 {
+    position: relative; 
+    transition: all ease 500ms;
+    overflow: hidden
+}
+
+.hovai-box-image-1 img {
+    width: 100%;
+    transform: scale(1);
+     transition: all ease 500ms;
+}
+
+.hovai-demo-box-1:hover .hovai-box-image-1 img {
+    width: 100%;
+    transform: scale(1.1);
+     transition: all ease 500ms;
+}
+.box-shadow{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.box-shadow:hover {
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.tabel {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.tabel-cell {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+}
+.padding-bottom{
+    margin-bottom: 100px;
+}
+.hovai-box-details-1 {
+    position: absolute;
+    top: -100%;
+    left: 0; 
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+     transition: all ease 500ms;
+}
+.hovai-demo-box-1:hover .hovai-box-details-1 {
+    top:0;
+    transition: all ease 500ms;
+}
+
+
+ 
+.hovai-box-details-1 h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.hovai-box-details-1 p {
+    color: #fff;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+
+.border-line-1 {
+    background: #fff;
+    width: 100%;
+    height: 5px;
+    display: block;
+    margin-top: 0;
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+      transition: all ease 500ms;
+}
+
+.hovai-demo-box-1:hover .border-line-1 {
+    left: 0%;
+    transition: all ease 500ms;
+}
+ 
+.team-member-soical-10 i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    font-size: 22px;
+    line-height: 40px;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+}
+.team-member-soical-10 {
+    padding-top: 0px;
+}
+ 
+
+
+/*** Demo 17 ***/
+
+ 
+
+.hovai-demo-box-2 {
+    position: relative; 
+    transition: all ease 500ms;
+    overflow: hidden
+}
+
+.hovai-box-image-2 img {
+    width: 100%;
+    transform: scale(1);
+     transition: all ease 500ms;
+}
+
+.hovai-demo-box-2:hover .hovai-box-image-2 img {
+    width: 100%;
+    transform: scale(1.1);
+     transition: all ease 500ms;
+}
+.box-shadow{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.box-shadow:hover {
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.tabel {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.tabel-cell {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+}
+.padding-bottom{
+    margin-bottom: 100px;
+}
+.hovai-box-details-2 {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+     transition: all ease 500ms;
+}
+ 
+
+.hovai-box-details-2 h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.hovai-box-details-2 p {
+    color: #fff;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+.boder-line-top-2 {
+    width: 90%;
+    position: absolute;
+    top: -100%;
+    height: 40px;
+    background: transparent;
+    right: 0;
+    text-align: center;
+    left: 0;
+    margin: 0 auto;
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+       transition: all ease 500ms;
+    
+}
+.boder-line-bottom-2 {
+    width: 90%;
+    position: absolute;
+    bottom: 10%;
+    height: 40px;
+    background: transparent;
+    right: 0;
+    left: 0;
+    text-align: center;
+    bottom:-100%;
+    margin: 0 auto;
+    border-bottom:1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+       transition: all ease 500ms;
+} 
+
+.hovai-demo-box-2:hover .boder-line-top-2 {
+      top: 10%;
+       transition: all ease 500ms;
+}
+
+.hovai-demo-box-2:hover .boder-line-bottom-2 {
+      bottom: 10%;
+       transition: all ease 500ms;
+}
+
+
+.hovai-demo-box-1:hover .border-line-1 {
+    left: 0%;
+    transition: all ease 500ms;
+}
+
+.team-member-soical-10 i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    font-size: 22px;
+    line-height: 40px;
+     -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+    text-transform: capitalize;
+}
+.team-member-soical-10 {
+    padding-top: 0px;
+}
+ 
+ 
+ 
+/*** Demo 18 ***/ 
+ 
+ 
+.hovai-demo-box-6 {
+    position: relative; 
+    transition: all ease 500ms;
+    overflow: hidden
+}
+
+.hovai-box-image-6 img {
+    width: 100%;
+    transform: scale(1);
+    transition: all ease 500ms;
+    opacity: 1;
+}
+
+.hovai-demo-box-6:hover .hovai-box-image-6 img {
+    width: 100%;
+    transform: scale(1.1);
+    transition: all ease 500ms;
+   -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
+    
+    
+}
+.box-shadow{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.box-shadow:hover {
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.tabel {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.tabel-cell {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+}
+.padding-bottom{
+    margin-bottom: 100px;
+}
+.hovai-box-details-6 {
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 81%;
+    height: 100%;
+    text-align: center; 
+    transition: all ease 500ms;
+    background: rgba(0,0,0,0.5);
+    z-index: 9;
+     transform: scale(0);
+    padding:10px 20px;
+    
+}
+.hovai-demo-box-6:hover .hovai-box-details-6 {
+    transition: all ease 500ms;
+    transform: scale(1); 
+
+} 
+
+.hovai-box-details-6 h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.hovai-box-details-6 p {
+    color: #fff;
+    line-height: 20px;
+    padding-top: 10px;
+}
+ 
+ .hovai-box-social-6 {
+    position: absolute;
+    top: 0;
+    width:19%;
+    left:-100%;
+    background: rgba(0,0,0,.5);
+    height: 100%;
+     transition: all ease 500ms; 
+}
+
+.hovai-box-social-6 i {
+    display: inline-block;
+    text-align: center;
+    font-size:30px;
+    width: 100%;
+    height: 58px;
+    background: #fff;
+    margin-top: 0;
+    line-height: 60px;
+    color: #000;
+}
+.hovai-demo-box-6:hover  .hovai-box-social-6 {
+    left: 0;
+    transition: all ease 500ms;
+    
+}
+
+.hovai-box-social-6 i.fab.fa-facebook-square {
+    background: #3b5999;
+    color: #fff;
+    transition-delay: 2s;
+}
+
+.hovai-box-social-6 i.fab.fa-twitter-square{
+    background: #55acee;
+      color: #fff;
+    transition-delay: 3s;
+}
+
+.hovai-box-social-6 i.fab.fa-linkedin-in{
+    background: #0077B5;
+       color: #fff;
+    transition-delay: 3s;
+}
+.hovai-box-social-6 i.fab.fa-google-plus-square{
+    background: #dd4b39;
+       color: #fff;
+    transition-delay: 4s;
+}
+
+.hovai-demo-box-1:hover .border-line-1 {
+    left: 0%;
+    transition: all ease 500ms;
+}
+  
+ 
+
+
+/*** Demo 19 ***/
+ 
+.hovai-demo-box-9 {
+    position: relative; 
+    transition: all ease 500ms;
+    overflow: hidden
+}
+
+.hovai-box-image-9 img {
+    width: 100%;
+    transform: scale(1);
+     transition: all ease 500ms;
+    opacity: 1;
+}
+
+.hovai-demo-box-9:hover .hovai-box-image-9 img {
+    width: 100%;
+    transform: scale(1.1);
+     transition: all ease 500ms;
+     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    
+}
+.box-shadow{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.box-shadow:hover {
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.tabel {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.tabel-cell {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+}
+.padding-bottom{
+    margin-bottom: 100px;
+}
+.hovai-box-details-9 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    transition: all ease 500ms;
+    background: rgba(0,0,0,0.5);
+    z-index: 9;
+    -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    padding-left: 10px;
+}
+
+.hovai-demo-box-9:hover .hovai-box-details-9 {
+    transition: all ease 500ms;
+    left: -200%;
+   
+} 
+
+.hovai-box-details-9 h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.hovai-box-details-9 p {
+    color: #fff;
+    line-height: 20px;
+    padding-top: 10px;
+}
+ 
+ .hovai-box-social-9{
+    position: absolute;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    height: 100%;
+    transition: all ease 500ms;
+    background: rgba(0,0,0,0.5);
+    z-index: 9;
+    -webkit-clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+    clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+     padding-left: 20px;
+ }
+
+.hovai-demo-box-9:hover  .hovai-box-social-9{
+     right:0;
+     transition: all ease 500ms;
+}
+
+
+
+.hovai-box-social-9 {
+    text-align: center;
+}
+
+.hovai-box-social-9 i {
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #000;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.hovai-demo-box-1:hover .border-line-1 {
+    left: 0%;
+    transition: all ease 500ms;
+} 
+ 
+  
+/*** Demo 20 ***/
+ 
+.hovai-demo-box-5 {
+    position: relative;
+   
+    transition: all ease 500ms;
+    overflow: hidden
+}
+
+.hovai-box-image-5 img {
+    width: 100%;
+    transform: scale(1);
+     transition: all ease 500ms;
+    opacity: 1;
+}
+
+.hovai-demo-box-5:hover .hovai-box-image-5 img {
+    width: 100%;
+    transform: scale(100);
+     transition: all ease 500ms;
+     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    
+}
+.box-shadow{
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.18);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+.box-shadow:hover {
+    -webkit-box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+            box-shadow: 1px 2px 10px rgba(0,0,0,.50);
+    -webkit-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+
+.tabel {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.tabel-cell {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+}
+.padding-bottom{
+    margin-bottom: 100px;
+}
+.hovai-box-details-5 {
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center; 
+    transition: all ease 500ms;
+    background: rgba(0,0,0,0.5);
+    z-index: 9;
+    
+}
+.hovai-demo-box-5:hover .hovai-box-details-5 {
+    transition: all ease 500ms;
+    transform: scale(1); 
+     right: -100%;
+} 
+
+.hovai-box-details-5 h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.hovai-box-details-5 p {
+    color: #fff;
+    line-height: 20px;
+    padding-top: 10px;
+}
+ 
+.hovai-box-social-5 {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    transition: all ease 500ms;
+}
+
+.hovai-box-social-5 i {
+    font-size: 22px;
+    margin: 0 10px;
+    background: #fff;
+    color: #000;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+}
+
+
+.hovai-demo-box-5:hover .hovai-box-social-5 {
+    left: 0;
+    transition: all ease 500ms;
+}
+
+.hovai-demo-box-1:hover .border-line-1 {
+    left: 0%;
+    transition: all ease 500ms;
+}
+ 
+
+
+.hovai-demo-box-1:hover .border-line-1 {
+    left: 0%;
+    transition: all ease 500ms;
+}
+ 
+ 
+ 
+ 
+ 
+ 

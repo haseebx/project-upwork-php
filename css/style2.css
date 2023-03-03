@@ -1,0 +1,72 @@
+#flexiselDemo3{
+	display: none;
+}
+.nbs-flexisel-container {
+	position: relative;
+	max-width: 100%;
+	float:left;
+}
+
+.nbs-flexisel-ul {
+	position: relative;
+	width: 999999999999999999px;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	text-align: center;
+}
+.nbs-flexisel-inner {
+	overflow: hidden;
+	/*--width:80%;--*/
+	margin: 0 auto;
+	width:100%;
+}
+.nbs-flexisel-item {
+	float: left;
+	cursor: pointer;
+	position: relative;
+
+}
+
+/*** Navigation ***/
+.nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
+	width:22px;
+	height:46px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 100;
+}
+.nbs-flexisel-nav-left {
+	left: 37px;
+	top: -54px !important; 
+	background:url(../images/next.png) no-repeat;
+	
+}
+
+.nbs-flexisel-nav-left:hover {
+	left: 37px;
+	top: -54px !important; 
+	background:url(../images/next.png) no-repeat;
+	
+}
+
+.nbs-flexisel-nav-right {
+	right: 37px;
+	top: -54px !important;
+	background:url(../images/back.png) no-repeat;
+
+}
+.nbs-flexisel-nav-right:hover {
+	right: 37px;
+	top: -54px !important;
+	background:url(../images/back.png) no-repeat;
+
+}
+@media screen and (max-device-width: 767px)  {
+
+.nbs-flexisel-nav-right{ right: -9px !important; top:41px !important;}
+	.nbs-flexisel-nav-right:hover{ right:-9px !important; top:41px !important;}
+	.nbs-flexisel-nav-left{ left:-9px !important; top:41px !important;}
+	.nbs-flexisel-nav-left:hover{ left:-9px !important; top:41px !important;}
+	
+}	
